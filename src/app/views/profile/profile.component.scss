@@ -1,0 +1,319 @@
+.circleBase {
+    border-radius: 50%;
+   margin-left: 38%;
+   
+}
+
+.type3 {
+    width: 400px;
+    height: 400px;
+    background: #FFCC00;
+    opacity: .2;
+    
+}
+.left{
+    margin-top: -25%;
+    margin-left: 34%;
+    width: 350px;
+    height: 400px;
+    background: #FFCC00;
+    opacity: .2;
+    border-radius: 50%;
+
+}
+.right{
+  margin-left: 45%;
+  margin-top: -22%;
+  width: 360px;
+  height: 415px;
+  background: #FFCC00;
+  opacity: .2;
+  border-radius: 50%;
+  
+
+}
+.brand_logo_container {
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    top: 258px;
+    left: 44.2%;
+    border-radius: 50%;
+    background: white;
+    padding: 10px;
+    text-align: center;
+}
+.brand_logo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.feeds{
+    margin-top: 50%;
+    margin-left: 20%;
+}
+p{
+    font-size: 100%;
+    
+}
+.form_container {
+    
+}
+.login_btn {
+    margin-top: 10%;
+    width: 50%;
+    margin-left: -60%;
+    background: #c0392b !important;
+    color: white !important;
+}
+.login_btn:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+.login_container {
+    padding: 0 2rem;
+}
+.input-group-text {
+    background: #c0392b !important;
+    color: white !important;
+    border: 0 !important;
+    border-radius: 0.25rem 0 0 0.25rem !important;
+}
+.input_user,
+.input_pass:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #c0392b !important;
+}
+.health
+{
+    margin-top: -50%;
+    margin-left: 18%;
+    
+}
+.pics
+{
+    margin-left: 33%;
+}
+.inbox{
+    margin-top: -5%;
+    margin-left: 50%;
+}
+@media(max-width : 414px)
+{
+    .circleBase {
+        border-radius: 50%;
+       margin-left: 5%;
+       padding-left: -10%;
+    }
+    
+    .type3 {
+        width: 400px;
+        height: 400px;
+        background: #FFCC00;
+        opacity: .2;
+        
+    }
+    .left{
+        margin-top: -140%;
+        margin-left: -10%;
+        width: 350px;
+        height: 400px;
+        background: #FFCC00;
+        opacity: .2;
+        border-radius: 50%;
+    
+    }
+    .right{
+      margin-left: 30%;
+      margin-top: -100%;
+      width: 350px;
+      height: 410px;
+      background: #FFCC00;
+      opacity: .2;
+      border-radius: 50%;
+      
+    
+    }
+    .brand_logo_container {
+        position: absolute;
+        height: 170px;
+        width: 170px;
+        top: 230px;
+        left: 35%;
+        border-radius: 50%;
+        background: white;
+        padding: 10px;
+        text-align: center;
+    }
+    .brand_logo {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        border: 2px solid white;
+    }
+    .feeds{
+        margin-top: 50%;
+        margin-left: 20%;
+    }
+    p{
+        font-size: 200%;
+        
+    }
+    .form_container {
+        margin-top: 100px;
+    }
+    .login_btn {
+        margin-top: 10%;
+        width: 50%;
+        margin-left: -60%;
+        background: #c0392b !important;
+        color: white !important;
+    }
+    .login_btn:focus {
+        box-shadow: none !important;
+        outline: 0px !important;
+    }
+    .login_container {
+        padding: 0 2rem;
+    }
+    .input-group-text {
+        background: #c0392b !important;
+        color: white !important;
+        border: 0 !important;
+        border-radius: 0.25rem 0 0 0.25rem !important;
+    }
+    .input_user,
+    .input_pass:focus {
+        box-shadow: none !important;
+        outline: 0px !important;
+    }
+    .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+        background-color: #c0392b !important;
+    }
+    .health
+    {
+        margin-top: -10%;
+        margin-left: -10%;
+        
+    }
+    .pics
+    {
+        margin-left: 25%;
+    }
+    .inbox{
+        margin-top: -38%;
+        margin-left: 70%;
+    }
+}
+@media(max-width : 375px)
+{
+    .circleBase {
+        border-radius: 50%;
+       margin-left: 10%;
+      
+    }
+    
+    .type3 {
+        width: 350px;
+        height: 350px;
+        background: #FFCC00;
+        opacity: .2;
+        margin-right: -10%;
+        
+    }
+    .left{
+        margin-top: -135%;
+        margin-left: -10%;
+        width: 350px;
+        height: 350px;
+        background: #FFCC00;
+        opacity: .2;
+        border-radius: 50%;
+    
+    }
+    .right{
+      margin-left: 30%;
+      margin-top: -110%;
+      width: 350px;
+      height: 410px;
+      background: #FFCC00;
+      opacity: .2;
+      border-radius: 50%;
+      
+    
+    }
+    .brand_logo_container {
+        position: absolute;
+        height: 170px;
+        width: 170px;
+        top: 215px;
+        left: 38%;
+        border-radius: 50%;
+        background: white;
+        padding: 10px;
+        text-align: center;
+    }
+    .brand_logo {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        border: 2px solid white;
+    }
+    .feeds{
+        margin-top: 50%;
+        margin-left: 20%;
+    }
+    p{
+        font-size: 200%;
+        
+    }
+    .form_container {
+        margin-top: 100px;
+    }
+    .login_btn {
+        margin-top: 10%;
+        width: 50%;
+        margin-left: -60%;
+        background: #c0392b !important;
+        color: white !important;
+    }
+    .login_btn:focus {
+        box-shadow: none !important;
+        outline: 0px !important;
+    }
+    .login_container {
+        padding: 0 2rem;
+    }
+    .input-group-text {
+        background: #c0392b !important;
+        color: white !important;
+        border: 0 !important;
+        border-radius: 0.25rem 0 0 0.25rem !important;
+    }
+    .input_user,
+    .input_pass:focus {
+        box-shadow: none !important;
+        outline: 0px !important;
+    }
+    .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+        background-color: #c0392b !important;
+    }
+    .health
+    {
+        margin-top: -15%;
+        margin-left: -25%;
+        
+    }
+    .pics
+    {
+        margin-left: 28%;
+    }
+    .inbox{
+        margin-top: -38%;
+        margin-left: 90%;
+    }
+}
