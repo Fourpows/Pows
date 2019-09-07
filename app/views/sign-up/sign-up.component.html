@@ -1,0 +1,47 @@
+<div class="d-flex justify-content-center form_container">
+
+  <div class="first-step" *ngIf="first">
+    <p>
+      My Name is 
+    </p>
+    <div class="input-group mb-3">
+      <input type="text" name="" class="form-control input_user" value="" placeholder="Max">
+    </div>
+    <div class="d-flex justify-content-center mt-3 login_container">
+      <button type="button" (click)="First()" name="button" class="btn login_btn">Next</button>
+    </div>
+  </div>
+  <div class="second-step" *ngIf="second">
+    <p>
+      My Birthday is
+    </p>
+    <div class="input-group mb-3">
+      <input type="text" name="" class="form-control input_user" value="" placeholder="12-1-2019">
+    </div>
+    <div class="d-flex justify-content-center mt-3 login_container">
+      <button type="button" (click)="Second()" name="button" class="btn login_btn">Next</button>
+    </div>
+  </div>
+  <div class="third-step" *ngIf="third">
+    <p>
+      I'm A 
+    </p>
+    <div class="input-group mb-3">
+      <input type="text" name="" class="form-control input_user" value="" placeholder="Dog">
+    </div>
+    <div class="d-flex justify-content-center mt-3 login_container">
+      <button type="button" (click)="Third()" name="button" class="btn login_btn">Next</button>
+    </div>
+  </div>
+  <div class="fourth-step" *ngIf="fourth">
+    <p>
+      My Type Is
+    </p>
+    <div class="input-group mb-3">
+      <input type="text" name="" class="form-control input_user" value="" placeholder="Type">
+    </div>
+    <div class="d-flex justify-content-center mt-3 login_container">
+      <button type="button" (click)="Fourth()" name="button" class="btn login_btn">Next</button>
+    </div>
+  </div>
+</div>
