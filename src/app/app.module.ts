@@ -11,11 +11,13 @@ import { NavbarComponent } from './views/navbar/navbar.component';
 import { SharedModule } from './shared/shared/shared.module';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatTabsModule} from '@angular/material/tabs';
+import { CardsComponent } from './views/cards/cards.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
+    // CardsComponent,
     
   ],
   imports: [
