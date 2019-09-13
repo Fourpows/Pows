@@ -1,6 +1,8 @@
 .tbg{
   /* prevents horizontal scroll bar appearing  */
- 
+  background: #ec008c;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fc6767, #ec008c);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fc6767, #ec008c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
 }
 
@@ -16,11 +18,11 @@ Tinder Template by Miami
     border-top-left-radius: 25px;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
-    border: 1px solid #c0c0c0;
+    border: 1px solid red;
     margin-top: 10%; 
 }
 .tbgwrap { padding: 80px; }
-.theader { height: 65px; border-bottom: 1px solid #c0c0c0; }
+.theader { height: 65px; border-bottom: 1px solid white; }
 .theader i.fa-comments {
     color: #c0c0c0;
     font-size: 40px;
@@ -99,7 +101,7 @@ Tinder Template by Miami
 
         color: #5de19c;
         font-size: 60px;
-        padding: 25px 25px;
+        padding: 26px 28px;
     }
 }
 .credit {
@@ -164,9 +166,40 @@ Tinder Template by Miami
         border: 1px solid #c0c0c0;
         margin-top: 10%; 
     }
+    .tno {
+        background-color: #fff;
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -o-border-radius: 50%;
+        -ms-border-radius: 50%;
+        position: relative;
+        display: inline-block;
+        top: 50px;
+        left: 60px;
+        border: 10px solid #f0f0f0;
+    }
+    .tno {
+        i{
+        color: #ff695b;
+        font-size: 80px;
+        padding: 10px 20px;    
+        }
+    }
 }
 @media only screen and ( max-width : 375px)
 {
+    .tcontrols{
+        margin-left: 30%;
+    }
+}
+@media only screen and (min-width : 725px)
+{
+    .tbgwrap { 
+        padding: 80px;   
+        margin-left: 9%; 
+    }
     .tcontrols{
         margin-left: 30%;
     }

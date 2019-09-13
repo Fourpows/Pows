@@ -2,17 +2,17 @@
     width: 350px;
     height: 350px;
     overflow: hidden;
-    margin: 0 auto;
+    margin: 20% auto;
     position: relative;
     top: 15px;
     border-radius: 10px;
     -moz-border-radius: 10px;
     -o-border-radius: 10px;
     -ms-border-radius: 10px;
-    border: 1px solid #c0c0c0;
+    border: 1px solid white;
     padding-bottom: 60px;
     background-color: #fff;
-    box-shadow: 2px 2px 2px #c0c0c0;
+    box-shadow: 2px 2px 2px red;
     img{
         width:100%;
     }
@@ -27,7 +27,7 @@
 .tname .age { font-weight: 100; }
 .tinfo { font-family: 'Helvetica', sans-serif; }
 .tinfo .fa-users, .tinfo .fa-book {
-    color: #c0c0c0;
+    color: gray;
     float: right;
     position: relative;
     font-size: 24px;
@@ -95,7 +95,7 @@
         margin: 0 auto;
         position: relative;
         top: -30px;
-        left: -75px;
+        left: -78px;
         border-radius: 10px;
         -moz-border-radius: 10px;
         -o-border-radius: 10px;

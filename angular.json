@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/pows",
+            "outputPath": "dist",
             "scripts": ["./node_modules/hammerjs/hammer.min.js"] ,
             "index": "src/index.html",
             "main": "src/main.ts",
