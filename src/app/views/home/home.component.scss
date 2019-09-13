@@ -165,9 +165,9 @@ Tinder Template by Miami
         margin-top: 10%; 
     }
 }
-@media only screen and (min-width : 320px){
-    .tcontrols
-    {
-        margin-left: 15%;
-    }   
+@media only screen and ( max-width : 375px)
+{
+    .tcontrols{
+        margin-left: 30%;
+    }
 }
